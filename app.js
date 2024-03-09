@@ -3,7 +3,7 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
-const core = require("core");
+const cors = require("cors");
 
 //import moongoose
 const moongoose = require("mongoose");
